@@ -2,8 +2,11 @@
 const Aluno = (props) => {
   return (
     <>
-      <p>O Nome do Aluno é:{props.nome} </p>
-      <p>A Idade do Aluno é:{props.idade}</p>
+    <h5>Props</h5>
+      <p>O Id do Usuário é:{props.id} </p>
+      <p>O Nome do Usuário é:{props.nome}</p>
+      <p>O Email do Usuário é:{props.email}</p>
+      <p>O Telefone do Usuário é:{props.telefone}</p>
     </>
   )
 }
